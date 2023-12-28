@@ -1,0 +1,12 @@
+launch:
+
+# args that can be set from the command line or a default will be used
+- arg:
+    name: "obstacle"
+    default: "1.0"
+- arg:
+    name: "degrees"
+    default: "90"
+- arg:
+    name: "final_approach"
+    default: "false"
