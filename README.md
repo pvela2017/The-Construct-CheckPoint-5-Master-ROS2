@@ -70,7 +70,7 @@ Final approach:
 
 <!-- USAGE -->
 ## Usage
-### Local Simulation & Real Robot
+### Local Simulation
 1. Launch the simulation:
    ```sh
    source /opt/ros/noetic/setup.bash && \
