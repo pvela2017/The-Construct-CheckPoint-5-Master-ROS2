@@ -1,4 +1,4 @@
-# CheckPoint 3 ROS2 Basics CPP
+# CheckPoint 5 Master ROS2
 
 <a name="readme-top"></a>
 
@@ -24,7 +24,15 @@
 
 
 ## About The Project
-This project demonstrates the application of ROS2 (Robot Operating System 2) concepts to control a real Turtlebot3 robot. Using the LIDAR and services the robot patrol the scenario without crashing into the obstacles.
+The purpose of this project is to create a program that allows the robot to approach, detect and attach to a warehouse shelf.
+In the first part of the project, a simple ROS2 node that performs the pre-approach motion was created. This is, move the robot near the location of the shelf. Then a ROS2 node that performs the final approach motion was created. 
+
+</br>
+
+Final approach:
+* Detects the exact position of the shelf.
+* Commands the robot right beneath the shelf.
+* Attaches the robot to the shelf.
 
 ![This is an image](images/preview.gif)
 
@@ -106,9 +114,6 @@ This project demonstrates the application of ROS2 (Robot Operating System 2) con
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- RESULTS -->
-## Results
-[![Demo](https://img.youtube.com/vi/s4jkbh0bWyQ/0.jpg)](https://www.youtube.com/watch?v=s4jkbh0bWyQ)
 
 
 <!-- KEYS -->
