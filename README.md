@@ -83,4 +83,5 @@ Final approach:
 
 <!-- KEYS -->
 ## Key Topics Learnt
-
+* Broadcast TFs.
+* Load parameters.
